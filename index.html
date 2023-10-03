@@ -1,0 +1,94 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de Partidos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .partido {
+            border: 1px solid #ccc;
+            background-color: #fff;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .equipo {
+            font-weight: bold;
+        }
+
+        .resultado {
+            color: #007bff;
+        }
+        #ver{
+            color:red;
+            text-align: center;
+        }
+        button{
+            border: none;
+            background-color: rgba(51, 51, 51, 0.096);
+            color: brown;
+            display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 200px; 
+    height: 50px; 
+    margin: 0 auto;
+    font-size: 150%;
+        }
+        button:hover{
+            border: none;
+            background-color: rgb(255, 0, 0);
+            color: rgb(255, 255, 255);
+            display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 200px; 
+    height: 50px; 
+    margin: 0 auto;
+    font-size: 220%;
+    transition: 1s;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Resultados de Partidos</h1>
+    </header>
+    <div class="partido">
+        <p class="equipo">Real Madrid vs. Barcelona</p>
+        <p class="resultado">Resultado: 2-1</p>
+        <p>Fecha: 02/07/2023</p>
+    </div>
+    <div class="partido">
+        <p class="equipo">Junior vs. Nacional</p>
+        <p class="resultado">Resultado: 0-0</p>
+        <p>Fecha: 02/10/2023</p>
+    </div>
+    <div class="partido">
+        <p class="equipo">Boca jrs vs. River plate</p>
+        <p class="resultado">Resultado: 3-2</p>
+        <p>Fecha: 01/10/2023</p>
+    </div>
+
+    <button>Ver mas...</button>
+</body>
+</html>
